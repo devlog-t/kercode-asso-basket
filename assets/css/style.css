@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /* ===== VARIABLE CSS ===== */
-/* ===== TOP PAGE ===== */
+/* HEIGHT NAV */
 :root{
     --header-height: 3rem;
 }
@@ -48,7 +48,7 @@
     --z-fixed: 100;
 }
 
-/* ===== BASE ===== */
+/* ===== BASE AND RESET ===== */
 *, ::before, ::after{
     box-sizing: border-box;
 }
@@ -82,4 +82,89 @@ img{
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/* ===== SECTION CLASS ===== */
+.section{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.section-title{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
+/* ===== GRID ===== */
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+
+/* ===== HEADER ===== */
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: rgb(173, 49, 49);
+    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+}
+
+/* ===== NAV ===== */
+.nav{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: var(--header-height) auto;
+    column-gap: 0;
+    grid-template-areas: 
+    "logo toggle"
+    "menu menu";
+    align-items: center;
+}
+.nav__menu{
+    grid-area: menu;
+    justify-self: center;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.nav__logo-wrapper{
+    grid-area: logo;
+}
+.nav__toggle{
+    grid-area: toggle;
+    justify-self: flex-end;
+}
+.nav__checkbox:checked ~ .nav__menu{
+    max-height: 1000px;
+    height: 100vh;
+}
+.nav__checkbox{
+    display: none;
+}
+.nav__list{
+    margin-top: 2rem;
+}
+.nav__item{
+    padding: 1rem 0;
 }

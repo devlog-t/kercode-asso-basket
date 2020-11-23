@@ -127,11 +127,21 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: rgb(173, 49, 49);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
 /* ===== NAV ===== */
+/* TOGGLE NAV */
+.nav__checkbox:checked ~ .nav__menu{
+    max-height: 1000px;
+    height: 100vh;
+}
+.nav__checkbox{
+    display: none;
+}
+
+/* NAV TEMPLATE*/
 .nav{
     grid-template-columns: 50% 50%;
     grid-template-rows: var(--header-height) auto;
@@ -154,17 +164,14 @@ img{
 .nav__toggle{
     grid-area: toggle;
     justify-self: flex-end;
-}
-.nav__checkbox:checked ~ .nav__menu{
-    max-height: 1000px;
-    height: 100vh;
-}
-.nav__checkbox{
-    display: none;
+    font-size: 1.5rem;
 }
 .nav__list{
     margin-top: 2rem;
 }
 .nav__item{
     padding: 1rem 0;
+}
+.nav__logo{
+    font-weight: var(--font-semi);
 }

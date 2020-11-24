@@ -5,8 +5,8 @@
         
         <div class="newsletter__container">
             <form action="" class="newsletter__form">
-                <input type="mail" placeholder="Email" class="newsletter__input">                
-                <input type="button" value="S'incrire" class="newsletter__button button">
+                <input type="mail" placeholder="Email" class="input newsletter__input" required>                
+                <input type="submit" value="S'incrire" class="newsletter__button button">
             </form>
         </div>
     </section>

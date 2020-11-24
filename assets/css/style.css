@@ -9,7 +9,7 @@
 
 /* ===== COLORS ===== */
 :root{
-    --first-color: #4070F4;
+    --first-color: #ff6600;
     --second-color: #0E2431;
 }
 
@@ -17,7 +17,8 @@
 :root{
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 1.3rem;
+    --h3-font-size: 1.15rem;
     --normal-font-size: 0.938rem;
     --font-semi: 600;
 }
@@ -26,6 +27,7 @@
     :root{
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
+        --h3-font-size: 1.6rem;
         --normal-font-size: 1rem;
     }
 }
@@ -64,7 +66,7 @@ body{
     color: var(--second-color);
 }
 
-h1,h2,p{
+h1,h2,h3,p{
     margin: 0;
 }
 
@@ -86,7 +88,7 @@ img{
 
 /* ===== SECTION CLASS ===== */
 .section{
-    padding-top: 3rem;
+    padding-top: var(--header-height);
     padding-bottom: 2rem;
 }
 .section-title{
@@ -115,9 +117,6 @@ img{
     display: grid;
     grid-template-columns: 100%;
     column-gap: 2rem;
-    /* width: calc(100% - 2rem);
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2); */
 }
 
 /* ===== HEADER ===== */
@@ -192,9 +191,9 @@ img{
     height: calc(100vh - var(--header-height));
     row-gap: 1rem;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), 
+        linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), 
         center / cover no-repeat url("/assets/img/floor-basketball-ball.jpg");
-    padding: var(--m-3);
+    padding: 0 var(--m-3);
     color: #fff;
 }
 .home__data{
@@ -220,3 +219,19 @@ img{
 }
 
 /* ===== ABOUT SECTION ===== */
+.about__container{
+    row-gap: 2rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+.about__img{
+    justify-self: center;
+}
+.about__img img{
+    width: 300px;
+    border-radius: .5rem;
+}
+.about__subtitle{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--m-2);
+}

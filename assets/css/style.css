@@ -55,15 +55,15 @@
         --big-font-size: 3.6rem;
         --h2-font-size: 2.8rem;
         --h3-font-size: 2rem;
-        --normal-font-size: 1.4rem;
+        --normal-font-size: 1.2rem;
     }
 }
 @media screen and (min-width: 1200px){
     :root{
-        --big-font-size: 5rem;
+        --big-font-size: 4rem;
         --h2-font-size: 3.2rem;
-        --h3-font-size: 2.5rem;
-        --normal-font-size: 1.4rem;
+        --h3-font-size: 2.4rem;
+        --normal-font-size: 1.2rem;
     }
 }
 
@@ -226,7 +226,7 @@ img{
     row-gap: 1rem;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), 
-        center / cover no-repeat url("/assets/img/floor-basketball-ball.jpg");
+        center / cover no-repeat url("assets/img/floor-basketball-ball.jpg");
     padding: 0 var(--m-3);
     color: #fff;
 }

@@ -26,7 +26,7 @@
     </div>
 
     <!-- ===== CONTACT CONTENT ===== -->
-    <main class="main">
+    <main class="main main__news">
         <section class="section bd-grid" id="blog">          
             <div class="news section" id="news">
                 <h2 class="section-title">Dernière News</h2>

@@ -51,7 +51,7 @@
                         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque in fuga officiis, similique.</p>
                     </div>
                     <div class="about__button">
-                        <a href="#" class="button">Nous rejoindre</a>
+                        <a href="contact.php" class="button">Nous rejoindre</a>
                     </div>
                 </div>
             </div>

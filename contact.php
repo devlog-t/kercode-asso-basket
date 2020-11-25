@@ -30,6 +30,7 @@
         <section class="contact section bd-grid" id="contact">          
             <div class="contact__wrapper">
                 <h2 class="section-title">Nous contacter</h2>
+
                 <form action="" class="contact__form">
                     <div class="form__field">
                         <label for="name">Votre nom</label>
@@ -72,10 +73,11 @@
                 </address>
             </div>
         </section>
+        
         <div class="contact__map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.0754270781936!2d-2.7799520842215903!3d47.663531092036436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101eba62f8b41d%3A0x8b9f26d7d3e595c1!2s12%20Rue%20Georges%20Caldray%2C%2056000%20Vannes!5e0!3m2!1sfr!2sfr!4v1606247628897!5m2!1sfr!2sfr"frameborder="0" style="border:0;" allowfullscreen=""    aria-hidden="false" tabindex="0">
                 </iframe>
-            </div>
+        </div>
     </main>
 
     <!--===== FOOTER =====-->

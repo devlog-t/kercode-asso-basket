@@ -97,7 +97,7 @@
                     <p class="category-post">Vie du club</p>
                     <div class="card__content">
                         <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditii...</p>
+                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipissicing elit. Quis aut repudiandae molestiae aliquid corporis blanditii...</p>
                     </div>
                 </div>               
             </article>

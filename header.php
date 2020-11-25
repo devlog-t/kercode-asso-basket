@@ -2,7 +2,7 @@
 <header class="header">
     <nav class="nav bd-grid">
         <div class="nav__logo-wrapper">
-            <a href="#" class="nav__logo">Gallico Basket</a>
+            <a href="index.php" class="nav__logo">Gallico Basket</a>
         </div>
         
         <label for="nav-checkbox" class="nav__toggle"><i class='bx bx-menu'></i></label>

@@ -20,7 +20,7 @@
     ?>
 
     <!-- ===== CONTACT HOME ===== -->
-    <div class="contact__header section">
+    <div class="page-header section">
         <h1 class="contact__header__title">Contact</h1>
         <p class="contact__header__intro">Nous trouver ? Rien de plus simple !</p> 
     </div>

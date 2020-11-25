@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 
     <!-- ===== BOX ICONS ===== -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -61,18 +62,7 @@
         <section class="news section" id="news">
             <h2 class="section-title">News</h2>
 
-            <article class="news__card bd-grid">
-                <div class="card__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
-                </div> 
-                <div class="card__wrapper">
-                    <p class="category-post">Vie du club</p>
-                    <div class="card__content">
-                        <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...</p>
-                    </div>
-                </div>               
-            </article>
+            
         </section>
     </main>
 

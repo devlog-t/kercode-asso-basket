@@ -33,7 +33,7 @@
 
                 <article class="news__card bd-grid">
                     <div class="card__img">
-                        <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
+                        <img src="assets/img/high-def/basketball-dunk.webp" alt="Dunk de basketball">
                     </div> 
                     <div class="card__wrapper">
                         <p class="category-post">Vie du club</p>

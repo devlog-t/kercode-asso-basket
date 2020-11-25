@@ -305,7 +305,7 @@ img{
     row-gap: 1rem;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), 
-        center / cover no-repeat url("/assets/img/floor-basketball-ball.jpg");
+        center / cover no-repeat url("/assets/img/high-def/outdoor-basket.webp");
     padding: 0 var(--m-3);
     color: #fff;
 }
@@ -636,7 +636,7 @@ img{
         padding: 3rem;
     }
     .club .card__img{
-        width: 100%;
+        width: 35%;
         margin: 2rem 0;
     }
 

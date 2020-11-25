@@ -35,7 +35,7 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi tempore amet laudantium quis.
             </p>
             <div class="card__img">
-                <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
+                <img src="assets/img/high-def/outdoor-color-basket.webp" alt="">
             </div> 
             <p class="blog__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi tempore amet laudantium quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minima nobis esse odio consectetur officia et incidunt beatae fuga dolorum saepe quas voluptatibus neque nulla alias nemo cumque, tempora commodi?

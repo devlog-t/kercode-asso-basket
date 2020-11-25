@@ -42,7 +42,7 @@
     
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="Photo of Marlon">
+                    <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="Terrain de basket extérieur">
                 </div>
 
                 <div class="about__content">

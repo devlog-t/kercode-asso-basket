@@ -361,6 +361,13 @@ img{
     text-align: justify;
 }
 
+/* ===== CLUB PHP ===== */
+.blog__text{
+    text-align: justify;
+    margin: 1rem;
+}
+
+
 /* ===== CONTACT PHP ===== */
 .contact{
     margin: auto var(--m-4);
@@ -517,9 +524,6 @@ img{
     }
 
     /* news section */
-    /* .news__card{
-        width: 280px;
-    } */
     .card__wrapper{
         text-align: justify;
     }
@@ -580,6 +584,11 @@ img{
     .article__text{
         display: block;
     }
+
+    .club .card__img{
+        width: 80%;
+        margin: 2rem auto;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -626,5 +635,6 @@ img{
     .news{
         padding: 3rem;
     }
+    
 }
 

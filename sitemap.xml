@@ -3,4 +3,16 @@
   <url>
     <loc>https://asso-basket.herokuapp.com/index.php</loc>
   </url>
+  <url>
+    <loc>https://asso-basket.herokuapp.com/club.php</loc>
+  </url>
+  <url>
+    <loc>https://asso-basket.herokuapp.com/news.php</loc>
+  </url>
+  <url>
+    <loc>https://asso-basket.herokuapp.com/contact.php</loc>
+  </url>
+  <url>
+    <loc>https://asso-basket.herokuapp.com/article.php</loc>
+  </url>
 </urlset>

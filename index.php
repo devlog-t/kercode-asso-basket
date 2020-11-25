@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, match, rencontres, partage et convialité.">
 
     <link rel="stylesheet" href="assets/css/style.css">
 

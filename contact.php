@@ -22,7 +22,7 @@
     <!-- ===== CONTACT HOME ===== -->
     <div class="page-header section">
         <h1 class="contact__header__title">Contact</h1>
-        <p class="contact__header__intro">Nous trouver ? Rien de plus simple !</p> 
+        <p class="text-header-intro">Nous trouver ? Rien de plus simple !</p> 
     </div>
 
     <!-- ===== CONTACT CONTENT ===== -->

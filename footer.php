@@ -21,7 +21,7 @@
     </section>
     
     <div class="legal">
-        <p class="legal__link"><a href="mentions-legales.php">Mention Légales</a> - <a href="#">Conditions d'utilisation</a></p>
+        <p class="legal__link"><a href="mentions-legales.php">Mention Légales - Conditions d'utilisation</a></p>
         <p class="copyright" id="copyright">&#169; 2020 copyright Tous droits réservés</p>
     </div>
 </footer>

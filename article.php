@@ -21,15 +21,14 @@
 
     <!-- ===== NEWS HOME ===== -->
     <div class="page-header section">
-        <h1 class="blog__header__title">Les News</h1>
-        <p class="text-header-intro">L'actualité du club</p> 
+        <h1 class="blog__header__title">Nouveau site web</h1>
+        <p class="text-header-intro">Vie du club</p> 
     </div>
 
     <!-- ===== CONTACT CONTENT ===== -->
     <main class="main main__news">
         <section class="section bd-grid" id="blog">          
             <div class="news section" id="news">
-                <h2 class="section-title">Dernière News</h2>
 
                 <article class="news__card bd-grid">
                     <div class="card__img">
@@ -40,12 +39,14 @@
                         <div class="card__content">
                             <h3 class="card__title section-subtitle"><a href="article.php">Nouveau site web</a></h3>
                             <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...</p>
+                            <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...</p>
+                            <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae aliquid corporis blanditiis illo...</p>
                         </div>
                     </div>               
                 </article>
             </div>
         </section>
-        <section class="section bd-grid">
+        <section class="article__text section bd-grid">
             <select name="category" class="category input" id="category">
                 <option value="">Trier par catégorie</option>
                 <option value="club">Vie du club</option>

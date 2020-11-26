@@ -28,7 +28,7 @@
     <!-- ===== CONTACT CONTENT ===== -->
     <main class="main main__news">
         <section class="section bd-grid" id="blog">          
-            <div class="news section" id="news">
+            <div class="news" id="news">
                 <h2 class="section-title">Dernière News</h2>
 
                 <article class="news__card bd-grid">
@@ -45,7 +45,7 @@
                 </article>
             </div>
         </section>
-        <section class="section bd-grid">
+        <section class="section">
             <select name="category" class="category input" id="category">
                 <option value="">Trier par catégorie</option>
                 <option value="club">Vie du club</option>
@@ -53,54 +53,35 @@
                 <option value="stratégie">Stratégie</option>
                 <option value="fédération">Fédération Basket</option>
             </select>
-            <article class="news__card news__feed bd-grid">
+            <article class="news__feed">
                 <div class="card__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
+                    <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
                 </div> 
-                <div class="card__wrapper">
+                <div class="">
+                    <h3 class="">Titre de l'article</h3>
                     <p class="category-post">Vie du club</p>
-                    <div class="card__content">
-                        <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipi...</p>
-                    </div>
                 </div>               
             </article>
-            <article class="news__card news__feed bd-grid">
+            <article class="news__feed">
                 <div class="card__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
+                    <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
                 </div> 
-                <div class="card__wrapper">
+                <div class="">
+                    <h3 class="">Titre de l'article</h3>
                     <p class="category-post">Vie du club</p>
-                    <div class="card__content">
-                        <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aut repudiandae molestiae...</p>
-                    </div>
                 </div>               
             </article>
-            <article class="news__card news__feed bd-grid">
+            <article class="news__feed">
                 <div class="card__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
+                    <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
                 </div> 
-                <div class="card__wrapper">
+                <div class="">
+                    <h3 class="">Titre de l'article</h3>
                     <p class="category-post">Vie du club</p>
-                    <div class="card__content">
-                        <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    </div>
                 </div>               
             </article>
-            <article class="news__card news__feed bd-grid">
-                <div class="card__img">
-                    <img src="assets/img/terrain-basket-exterieur.jpg" alt="">
-                </div> 
-                <div class="card__wrapper">
-                    <p class="category-post">Vie du club</p>
-                    <div class="card__content">
-                        <h3 class="card__title section-subtitle">Titre de l'article</h3>
-                        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipissicing elit. Quis aut repudiandae molestiae aliquid corporis blanditii...</p>
-                    </div>
-                </div>               
-            </article>
+            
+            
         </section>
     </main>
 

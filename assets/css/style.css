@@ -179,14 +179,12 @@ img{
     color: var(--first-color);
 }
 .category-post{
-    padding: .2rem;
+    padding: 4px;
     text-transform: uppercase;
     color: #fff;
-    border-radius: .5rem;
-    font-weight: var(--font-semi);
-    background-color: var(--first-color);
+    background-color: var(--second-color);
     width: fit-content;
-    font-size: .8rem;
+    font-size: 0.6rem;
 }
 .button{
     display: inline-block;
@@ -399,26 +397,29 @@ img{
 }
 
 /* ===== BLOG PHP ===== */
-
-.news__feed .card__img{
-    display: none;
-}
-.news__feed .card__wrapper{
-    position: relative;
-    margin: 1rem 0;
- }
-.news__feed .category-post{
-   position: absolute;
-   top: 0;
-   right: 0;
-}
-.news__feed .card__title{
-    margin-top: 0;
-    margin-bottom: .5rem;
-}
-.category{
+.news__feed{
+    display: flex;
+    justify-content: space-around;
     margin: 2rem;
 }
+.news__feed .card__img{
+    width: 35%;
+}
+.news__feed .card__img img{
+    border-radius: 0;
+}
+.news__feed h3{
+    font-size: var(--normal-font-size);
+}
+.main__news select{
+    padding: 0.4rem;
+    margin: 0 2rem;
+}
+/* .news__feed .category-post{
+    font-size: ;
+} */
+
+
 
 /* ===== ARTICLE PHP ===== */
 .article__text{
@@ -426,7 +427,6 @@ img{
 }
 .club .card__img{
     width: 80%;
-    
     margin: 2rem auto;
 }
 
@@ -530,8 +530,9 @@ img{
     }
 
     /* news section */
-    .card__wrapper{
-        text-align: justify;
+    .main__news select{
+        padding: 0.4rem;
+        margin: 0 2rem;
     }
 
     /* footer section */
@@ -576,36 +577,16 @@ img{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .news__feed .card__text{
-        display: none;
-    }
+    
     .category{
-        height: 3rem;
+        /* height: 1.5rem; */
         align-self: flex-end;
     }
-    .news__feed .category-post{
-        position: initial;
+    .news__feed{
+        margin: 1rem 0;
     }
-
-    .article__text{
-        display: block;
-    }
-
-    .club .card__img{
-        width: 80%;
-        margin: 2rem auto;
-    }
-    .club .card__img img{
-        width: 40%;
-        float: left;
-        margin: 0 1rem 1rem 0;
-    }
-    .club .blog__text{
-        margin: 0;
-
-    }
-    .club .card__img p:nth-last-child(1){
-        clear: both;
+    .main__news .section:nth-last-of-type(1){
+        margin-top: 30%;
     }
 }
 

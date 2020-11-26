@@ -17,7 +17,6 @@
             <div class="social__bar">
                 <a href="#" class="social__icon"><i class='bx bxl-facebook'></i></a>
                 <a href="#" class="social__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="social__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
         </div>           
     </nav>

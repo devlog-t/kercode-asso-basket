@@ -108,9 +108,7 @@ img{
 .button__slider{
     font-size: 1rem;
 }
-.button__slider:hover{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+
 
 /* STYLE SLIDE INSIDE */
 /* .slide-content{

@@ -197,9 +197,16 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
     border: none;
+    transition: transform .6s, background-color .6s;
 }
 .button:hover{
-    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+    transform: scale(1.06);
+    background-color: var(--second-color);
+}
+#home .button:hover,
+.footer .button:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
 }
 .input{
     font-size: var(--normal-font-size);
@@ -208,6 +215,20 @@ img{
     border-radius: .5rem;
     border: 1.5px solid var(--second-color);
     outline: none;
+}
+.bxl-facebook,
+.bxl-instagram
+{
+    color: #fff;
+    transition: all .6s;
+}
+.bxl-facebook:hover{
+    color: #4476e2;
+    transform: scale(1.2);
+}
+.bxl-instagram:hover{
+    color: rgb(224, 38, 32);
+    transform: scale(1.2);
 }
 
 /* ===== GRID ===== */
@@ -254,6 +275,7 @@ img{
     "menu menu";
     align-items: center;
 }
+
 .nav__menu{
     grid-area: menu;
     max-height: 0;
@@ -270,6 +292,15 @@ img{
 .nav__logo-wrapper{
     grid-area: logo;
     padding-left: var(--m-3);
+}
+.nav__logo,
+.nav__link{
+    color: rgb(0, 0, 0);
+    transition: all .6s;
+}
+.nav__logo:hover,
+.nav__link:hover{
+    color: var(--first-color);
 }
 .nav__toggle{
     grid-area: toggle;
@@ -455,6 +486,9 @@ img{
 }
 .legal__link a{
     color: #fff;
+}
+.legal__link a:hover{
+    color: var(--first-color);
 }
 
 

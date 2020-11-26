@@ -16,6 +16,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, matchs, rencontres, partage et convivialité.">
 
+    <meta property="og:title" content="Gallico Basket - Association de Basketball à Vannes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asso-basket.herokuapp.com/" />
+    <meta property="og:image" content="https://asso-basket.herokuapp.com/assets/img/high-def/outdoor-basket.webp" />
+
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/slider.css">

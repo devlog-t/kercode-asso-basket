@@ -1,33 +1,116 @@
 <div id="slider">
-
-        <input type="radio" id="show_slide1" name="slider_commands">
-        <input type="radio" id="show_slide2" name="slider_commands">
-        <input type="radio" id="show_slide3" name="slider_commands">
-
-        <input type="radio" id="play_slider" name="slider_commands">
+        <input type="radio" name="slider" id="slide1" checked> 
+        <input type="radio" name="slider" id="slide2"> 
+        <input type="radio" name="slider" id="slide3"> 
+        <input type="radio" name="slider" id="slide4"> 
+    
 
         <div id="slides">
-            <figure id="slide1">
-                <img src="assets/img/floor-basketball-ball.jpg" alt="Une première image">
-                <figcaption>Une première image</figcaption>
-            </figure>
-            <figure id="slide2">
-                <img src="assets/img/terrain-basket-exterieur.jpg" alt="Une deuxième image">
-                <figcaption>Une deuxième image</figcaption>
-            </figure>
-            <figure id="slide3">
-                <img src="assets/img/floor-basketball-ball.jpg" alt="Une troisième image">
-                <figcaption>Une troisième image</figcaption>
-            </figure>
-       </div>
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <div class="card">
+                                <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/basket-ball.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/outdoor-basket.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_2">
+                        <div class="slide-content">
+                        <div class="card">
+                                <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/basket-ball.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/outdoor-basket.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_3">
+                        <div class="slide-content">
+                        <div class="card">
+                                <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/basket-ball.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/outdoor-basket.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide_4">
+                        <div class="slide-content">
+                        <div class="card">
+                                <img src="assets/img/high-def/terrain-basket-exterieur.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/basket-ball.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                            <div class="card">
+                                <img src="assets/img/high-def/outdoor-basket.webp" alt="">
+                                <h2>Titre news</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium tenetur quibusdam optio, esse quaerat quisquam...</p>
+                                <a href="article.php" class="button button__slider">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-       <nav>
-            <ul class="dots_commands">
-                <li><label for="show_slide1">Slide 1</label></li>
-                <li><label for="show_slide2">Slide 2</label></li>
-                <li><label for="show_slide3">Slide 3</label></li>
-            </ul>
-            <label for="play_slider" aria-label="Play" id="play" title="Play">Play</label>
-        </nav>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
 
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
     </div>

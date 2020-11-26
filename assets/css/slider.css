@@ -1,0 +1,237 @@
+/* https://codepen.io/anna_blok/pen/eYYRbQY */
+
+#slider{ /* style du container */
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#slider input[type=radio]{
+    display: none; /* cache les bouton radio */
+}
+
+#slider label{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides{ /* Zone d'affichage style*/
+    /* padding: 10px; */
+    /* border: 3px solid #ccc; */
+    background: #fff;
+    position: relative; /* servira de référence au enfant en absolu*/
+    z-index: 1; 
+}
+
+/* ZONE AFFICHAGE */
+#overflow{
+    width: 100%; /* #slider = width : 800px - padding ! border box ? */
+    overflow: hidden;
+}
+
+.slide-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* CONDITIONS DE MOUVEMENT - VARIABLE MARGIN CHANGE SELON CHECKBOX COCHE */
+#slide1:checked ~ #slides .inner{ /* Cible l'élément .inner ayant #slides comme parent SI #slide1 à l'état checked */
+    margin-left: 0; /* applique une marge gauche de 0 à l'élément inner*/
+}
+#slide2:checked ~ #slides .inner{ /* SI slide2 checked */
+    margin-left: -100%;  
+}
+#slide3:checked ~ #slides .inner{ /* SI slide3 checked */
+    margin-left: -200%; /* ALORS marge gauche de -200%*/
+}
+#slide4:checked ~ #slides .inner{ /* SI slide4 checked */
+    margin-left: -300%; /* ALORS marge gauche de -300%*/
+}
+
+/* PELLICULE */
+#slides .inner{ /* .inner = pellicule = zone contenant toutes les slides (photos) */
+    width: 400%; /* % SElON NB DE SLIDE , pellicule de 4 * 800 = 3200px */
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* Ajoute une transition selon courbe bezier, créer le mouvement quand valeur de margin left change */
+    /* line-height: 0; */
+    height: auto; /* Hauteur du slider! Selon image, chosiir hauteur contenant le plus petit pour éviter débordement */
+    
+}
+
+/* SLIDE (CHAQUE CONTENU) 800px X 200px */
+#slides .slide{
+    display: flex; /* pour centrer le texte */
+    justify-content: center;
+    align-items: center;
+    float: left; /* toute les slide float à gauche de leur voisin, mise en ligne */
+    width: 25%; /* 4 slides donc 1/4  de .inner soit 800px */
+    height: 100%; /* hauteur total */
+    color: #fff; /* Car background != de blanc */
+}
+
+/* STYLE SLIDE */
+/* #slides .slide_1{
+    background: #e07a5f;
+}
+#slides .slide_2{
+    background: #3d405b;
+}
+#slides .slide_3{
+    background: #81b29a;
+}
+#slides .slide_4{
+    background: #f2cc8f;
+} */
+
+.card{
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: .5rem;
+    
+}
+.button__slider{
+    font-size: 1rem;
+}
+.button__slider:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* STYLE SLIDE INSIDE */
+/* .slide-content{
+    padding: 10px;
+} */
+
+/* LABEL STYLE - FLECHE SUIVANT/PRECEDENT */
+#controls{
+    position: relative; /* Pour position absolute des labels*/
+    width: 100%;
+    height: 50px;
+    margin: -180px 0 0 0; /* hauteur control */
+    z-index: 3; 
+}
+
+#controls label{
+    display: none; /* non affiché par défaut */
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+    transition: opacity 0.2s ease-out;
+}
+#controls label:hover{
+    opacity: 1;
+}
+
+/* Affiche LABEL slide en cours ! +1 ! soit label correspondant à la checkbo de la slide SUIVANTE */
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1){
+    display: block; /* Affiche le label*/
+    float: right; /* A droite */
+    margin: 0 -50px 0 0; /* marge négative pour affichage à l'extérieur de #controls */
+    background: url(https://www.flaticon.com/svg/static/icons/svg/271/271228.svg) no-repeat; /* label = 50px 50px -> image de fond, fleche, lien absolu */
+}
+/* Affiche LABEL slide en cours ! -1 ! soit label correspondant à la checkbox de la slide PRECEDENTE */
+#slide1:checked ~ #controls label:nth-child(4),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3){
+    display: block; /* Affiche le label*/
+    float: left; /* A gauche */
+    margin: 0 0 0 -50px; /* marge négative pour affichage à l'extérieur de #controls */
+    background: url(https://www.flaticon.com/svg/static/icons/svg/271/271220.svg) no-repeat; /* label = 50px 50px -> image de fond, fleche, lien absolu */
+}
+
+/* PUCE SLIDE EN COURS */
+#bullets{
+    margin: 150px 0 0;
+    text-align: center;
+ }
+
+#bullets label{
+    display: inline-block; /* Reste en ligne avec propriété de bloc : largeur et hauteur ! */
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; /* rond */
+    background-color: #ccc;
+    margin: 0 10px; /* Espacement puces*/
+}
+
+/* La puce correspondante au slide en cours change d'apparence*/
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4){
+    background-color: #444;
+}
+
+
+/* CONTROL INTERNE SELON LARGEUR, A ADAPTER */
+@media screen and (max-width:768px){
+    .card{
+        width: 100%;
+        height: 500px;
+    }
+    .slide-content{
+        height: 500px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #slider{
+        width: 500px;
+    }
+    img{
+        width: 365px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-child(4),
+    #slide2:checked ~ #controls label:nth-child(1),
+    #slide3:checked ~ #controls label:nth-child(2),
+    #slide4:checked ~ #controls label:nth-child(3){
+        margin: 0 20px;
+    }
+    #controls{
+        display: none;
+    }
+    #bullets{
+        margin: 35px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+        #slider{
+            width: 1080px;
+        }
+        .card{
+            height: 550px;
+        }
+}
+
+
+
+  
+  
+
+  

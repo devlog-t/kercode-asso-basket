@@ -6,6 +6,7 @@
     <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, match, rencontres, partage et convialité.">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 
     <!-- ===== BOX ICONS ===== -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -61,7 +62,11 @@
         <!--===== NEWS SECTION =====-->
         <section class="news section" id="news">
             <h2 class="section-title">News</h2>
-
+            <?php 
+            
+            include ('slider.php');
+            
+            ?>
             
         </section>
     </main>

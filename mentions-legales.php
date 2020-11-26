@@ -378,6 +378,8 @@
                     https://asso-basket.herokuapp.com/ </a> est soumis au droit français. En dehors des cas où la loi ne
                 le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de
                 <span>Vannes</span></p>
+                <div>Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a></div>
+
         </section>
     </main>
 

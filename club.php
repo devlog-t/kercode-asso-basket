@@ -29,23 +29,19 @@
 
     <!-- ===== CONTACT CONTENT ===== -->
     <main class="main">
-        <section class="club section bd-grid" id="contact">
+        <section class="club section bd-grid" id="club">
             <h2 class="section-title">Gallico Basket</h2>
-            <p class="blog__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi tempore amet laudantium quis.
-            </p>
             <div class="card__img">
                 <img src="assets/img/high-def/outdoor-color-basket.webp" alt="">
+                <p class="blog__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nisi natus, numquam id modi voluptate magni autem cupiditate blanditiis vero praesentium enim quisquam, optio dolore nulla maiores. Quibusdam, corporis. Earum. <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nisi natus, numquam id modi voluptate magni autem cupiditate blanditiis vero praesentium enim quisquam, optio dolore nulla maiores. Quibusdam, corporis. Earum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nisi natus, numquam id modi voluptate magni autem cupiditate blanditiis vero praesentium enim quisquam, optio dolore nulla maiores. Quibusdam, corporis. Earum.
+                Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit.
+                </p>
+                <p>Maxime nisi natus, numquam id modi voluptate magni autem cupiditate blanditiis vero praesentium enim quisquam, optio dolore nulla maiores. Quibusdam, corporis. Earum.</p>
             </div> 
-            <p class="blog__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi tempore amet laudantium quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minima nobis esse odio consectetur officia et incidunt beatae fuga dolorum saepe quas voluptatibus neque nulla alias nemo cumque, tempora commodi?
-            </p>
-            <p class="blog__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam modi tempore amet laudantium quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rerum, suscipit cumque dicta error asperiores dolor impedit, sapiente deserunt mollitia minus illo commodi ducimus incidunt quis saepe debitis ullam ipsa aliquid laborum sit iusto? Sequi, blanditiis. Quaerat illum ratione accusamus corporis excepturi quibusdam, provident quos necessitatibus. Nesciunt deleniti architecto velit!
-            </p>
-            <p class="blog__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, doloremque!
-            </p>
+            
             
         </section>
     </main>

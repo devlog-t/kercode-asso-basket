@@ -2,6 +2,7 @@
 <header class="header">
     <nav class="nav bd-grid">
         <div class="nav__logo-wrapper">
+            <img src="/assets/img/logo-gallico-basket.svg" alt="Logo Gallico Basket"> 
             <a href="index.php" class="nav__logo">Gallico Basket</a>
         </div>
         

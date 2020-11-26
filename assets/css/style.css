@@ -290,8 +290,13 @@ img{
     padding: 0;
 }
 .nav__logo-wrapper{
+    display: flex;
+    align-items: center;
     grid-area: logo;
     padding-left: var(--m-3);
+}
+.nav__logo-wrapper img{
+    width: 40px;
 }
 .nav__logo,
 .nav__link{
@@ -519,6 +524,9 @@ img{
     }
 
     /* nav section */
+    .nav__logo-wrapper img{
+        width: 50px;
+    }
     .nav{
         display: flex;
         justify-content: space-between;
@@ -628,6 +636,9 @@ img{
     .nav{
         height: 5rem;
     }
+    .nav__logo-wrapper img{
+        width: 60px;
+    }
     .section-title::after{
         width: 100px;
         top: 4rem;
@@ -641,6 +652,9 @@ img{
     }
     .nav{
         height: 6rem;
+    }
+    .nav__logo-wrapper img{
+        width: 80px;
     }
     .section{
         padding: 6rem;

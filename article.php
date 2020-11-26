@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, matchs, rencontres, partage et convivialité.">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -10,7 +11,7 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 
-    <title>Gallico Basket - Association de Basketball à Vannes</title>
+    <title>Gallico Basket - Nouveau site web</title>
 </head>
 <body>
 

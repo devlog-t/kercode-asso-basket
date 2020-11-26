@@ -139,7 +139,7 @@ img{
     display: block;
 }
 
-/* ===== SECTION CLASS ===== */
+/* ===== SECTION GENERIC CLASS ===== */
 .section{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -239,7 +239,7 @@ img{
     column-gap: 2rem;
 }
 
-/* ===== HEADER ===== */
+/* ===== HEADER PHP ===== */
 .header{
     width: 100%;
     position: fixed;
@@ -250,7 +250,7 @@ img{
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-/* ===== HEADER PHP - NAV ===== */
+/* HEADER PHP - NAV */
 /* TOGGLE NAV */
 .nav__checkbox:checked ~ .nav__menu{
     position: absolute;
@@ -446,10 +446,6 @@ img{
     padding: 0.4rem;
     margin: 0 2rem;
 }
-/* .news__feed .category-post{
-    font-size: ;
-} */
-
 
 
 /* ===== ARTICLE PHP ===== */
@@ -492,6 +488,8 @@ img{
 }
 
 
+
+
 /* ===== RESPONSIVE ===== */
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
@@ -527,7 +525,6 @@ img{
     }
     .nav__menu{
         max-height: inherit;
-        /* padding-right: 2rem; */
         opacity: 1;
     }
     .nav__item{
@@ -584,6 +581,8 @@ img{
         width: 100%;
         max-width: 450px;
     }
+    
+    /* Legal page */
     .legal{
         grid-column: span 2;
     }

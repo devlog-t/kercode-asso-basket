@@ -72,19 +72,6 @@
 }
 
 /* STYLE SLIDE */
-/* #slides .slide_1{
-    background: #e07a5f;
-}
-#slides .slide_2{
-    background: #3d405b;
-}
-#slides .slide_3{
-    background: #81b29a;
-}
-#slides .slide_4{
-    background: #f2cc8f;
-} */
-
 .card{
     width: 30%;
     height: 500px;
@@ -108,12 +95,6 @@ img{
 .button__slider{
     font-size: 1rem;
 }
-
-
-/* STYLE SLIDE INSIDE */
-/* .slide-content{
-    padding: 10px;
-} */
 
 /* LABEL STYLE - FLECHE SUIVANT/PRECEDENT */
 #controls{

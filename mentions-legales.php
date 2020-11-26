@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, matchs, rencontres, partage et convivialité.">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,13 +22,13 @@
         include ('header.php');
     ?>
 
-    <!-- ===== CONTACT HOME ===== -->
+    <!-- ===== MENTIONS HOME ===== -->
     <div class="page-header section">
         <h1 class="contact__header__title">Mentions légales</h1>
         <p class="text-header-intro">Conditions d'utilisation</p>
     </div>
 
-    <!-- ===== CONTACT CONTENT ===== -->
+    <!-- ===== MENTIONS CONTENT ===== -->
     <main class="main">
         <section class="contact section bd-grid" id="contact">
             <h2 class="section-title">Mentions Légales</h2>

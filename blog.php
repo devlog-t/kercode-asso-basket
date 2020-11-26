@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, matchs, rencontres, partage et convivialité.">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -10,7 +11,7 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 
-    <title>Gallico Basket - Association de Basketball à Vannes</title>
+    <title>Gallico Basket - Les News du club</title>
 </head>
 <body>
 
@@ -25,7 +26,7 @@
         <p class="text-header-intro">L'actualité du club</p> 
     </div>
 
-    <!-- ===== CONTACT CONTENT ===== -->
+    <!-- ===== NEWS CONTENT ===== -->
     <main class="main main__news">
         <section class="section bd-grid" id="blog">          
             <div class="news" id="news">
@@ -45,6 +46,7 @@
                 </article>
             </div>
         </section>
+
         <section class="section">
             <select name="category" class="category input" id="category">
                 <option value="">Trier par catégorie</option>
@@ -80,8 +82,6 @@
                     <p class="category-post">Vie du club</p>
                 </div>               
             </article>
-            
-            
         </section>
     </main>
 

@@ -48,6 +48,7 @@
         </section>
 
         <section class="section">
+            <h2 class=".section-subtitle news__feed__title">Dernières News</h2>
             <select name="category" class="category input" id="category">
                 <option value="">Trier par catégorie</option>
                 <option value="club">Vie du club</option>

@@ -4,8 +4,8 @@
         <h3 class="section-subtitle">Newsletter</h3>
         
         <div class="newsletter__container">
-            <form action="" class="newsletter__form">
-                <input type="mail" placeholder="Email" class="input newsletter__input" required>                
+            <form action="newsletter.php" class="newsletter__form">
+                <input type="email" placeholder="exemple@mail.com" class="input newsletter__input" required>                
                 <input type="submit" value="S'incrire" class="newsletter__button button">
             </form>
         </div>

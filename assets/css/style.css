@@ -446,6 +446,9 @@ img{
     padding: 0.4rem;
     margin: 0 2rem;
 }
+.news__feed__title{
+    margin: 2rem;
+}
 
 
 /* ===== ARTICLE PHP ===== */
@@ -617,9 +620,6 @@ img{
     }
     .news__feed{
         margin: 1rem 0;
-    }
-    .main__news .section:nth-last-of-type(1){
-        margin-top: 30%;
     }
 }
 

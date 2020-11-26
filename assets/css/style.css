@@ -486,7 +486,7 @@ img{
         opacity: 1;
     }
     .nav__menu{
-        max-height: fit-content;
+        max-height: inherit;
         /* padding-right: 2rem; */
         opacity: 1;
     }

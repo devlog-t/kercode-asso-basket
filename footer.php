@@ -16,6 +16,7 @@
         <div class="social__footer__bar">
             <a href="#" class="social__icon"><i class='bx bxl-facebook'></i></a>
             <a href="#" class="social__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://github.com/devlog-t/kercode-asso-basket" class="social__icon"><i class='bx bxl-github'></i></a>
         </div>
     </section>
     

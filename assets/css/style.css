@@ -398,7 +398,11 @@ img{
 /* ===== CLUB PHP ===== */
 .blog__text{
     text-align: justify;
-    margin: 1rem;
+    word-break: break-all;
+    white-space: normal;
+}
+#club img{
+    margin: 0 2rem 1rem 0;
 }
 
 
@@ -629,6 +633,11 @@ img{
     .news__feed{
         margin: 1rem 0;
     }
+    #club img{
+        width: 45%;
+        float: left;
+    }
+    
 }
 
 /* Large devices (desktops, 992px and up) */

@@ -16,8 +16,9 @@ ob_start("ob_gzhandler");
     <meta property="og:image" content="https://asso-basket.herokuapp.com/assets/img/high-def/outdoor-basket.webp" />
 
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/slider.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/slider.css"> -->
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- ===== BOX ICONS ===== -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>

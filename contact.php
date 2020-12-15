@@ -7,7 +7,7 @@
     <meta name="description" content="Gallico Basket est une association sportive de basketball. Entrainements, stratégie, matchs, rencontres, partage et convivialité.">
 
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    <link rel="stylesheet" href="assets/css/minify.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
 
